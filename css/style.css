@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margini:0;
 }
 body {
   background-image: url(https://images-na.ssl-images-amazon.com/images/I/71hFBTQT7CL._SX466_.jpg);
@@ -9,17 +10,12 @@ button {
   border-radius: 6px;
 }
 #container {
-  width: 800px;
+  width: 700px;
   margin :auto;
 }
-
 .header-top {
-
   height: 90px;
   line-height: 90px
-}
-.header-bottom {
-
 }
 .logo {
   height: 90px;
@@ -29,13 +25,11 @@ button {
   display: inline;
   color: white;
 }
-
 main {
 }
 .title-unread {
   color: white;
 }
-
 .title-unread span {
   box-sizing: border-box;
   display: inline-block;
