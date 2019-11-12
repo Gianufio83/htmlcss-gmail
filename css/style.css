@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/71hFBTQT7CL._SX466_.jpg);
+  padding: 45px;
+}
+button {
+  border-radius: 6px;
+}
+#container {
+  width: 800px;
+  margin :auto;
+}
+
+.header-top {
+
+  height: 90px;
+  line-height: 90px
+}
+.header-bottom {
+
+}
+.logo {
+  height: 90px;
+  vertical-align: middle;
+}
+.logo-heading {
+  display: inline;
+  color: white;
+}
+
+main {
+}
+.title-unread {
+  color: white;
+}
+
+.title-unread span {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  margin: 10px;
+  background: orange;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.email {
+  background-color: grey;
+  border:2px solid black;
+  padding: 3px;
+}
+.email p {
+  display: inline;
+}
+.read {
+  background: white;
+}
+footer {
+  text-align: center;
+  color: white;
+}
